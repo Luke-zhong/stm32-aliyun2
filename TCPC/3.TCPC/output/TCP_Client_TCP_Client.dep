@@ -1,0 +1,689 @@
+Dependencies for Project 'TCP_Client', Target 'TCP_Client': (DO NOT MODIFY !)
+F (.\User\main.c)(0x55544F9A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.\User -I.\system -I.\output -I.\flib\inc -I.\flib\src -I.\word\24c02 -I.\word\device -I.\word\int -I.\word\md5 -I.\word\socket -I.\word\spi -I.\word\ult -I.\word\w5500 -I.\word\usart-I E:\MDK5\ARM\RV31\INC-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\output\main.o --omf_browse .\output\main.crf --depend .\output\main.d)
+I (.\word\usart\usart.h)(0x55544B0B)
+I (.\system\stm32f10x.h)(0x4D783CB4)
+I (.\system\core_cm3.h)(0x4D523B58)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\system\system_stm32f10x.h)(0x4D783CAA)
+I (.\User\stm32f10x_conf.h)(0x5423AAC4)
+I (.\flib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\flib\inc\misc.h)(0x4D783BB4)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (.\User\types.h)(0x5423AAAD)
+I (.\word\device\device.h)(0x55544B0B)
+I (.\word\spi\spi2.h)(0x5423C920)
+I (.\word\ult\ult.h)(0x543CD300)
+I (.\word\socket\socket.h)(0x551E31CE)
+I (.\word\w5500\w5500.h)(0x553081FA)
+I (.\word\24c02\24c16.h)(0x543CC886)
+I (.\word\md5\md5.h)(0x5423CC2E)
+I (E:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+F (.\User\stm32f10x_it.h)(0x4D99A59E)()
+F (.\User\stm32f10x_conf.h)(0x5423AAC4)()
+F (.\User\config.h)(0x54DC0D9B)()
+F (.\User\types.h)(0x5423AAAD)()
+F (.\system\core_cm3.c)(0x4C0C587E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.\User -I.\system -I.\output -I.\flib\inc -I.\flib\src -I.\word\24c02 -I.\word\device -I.\word\int -I.\word\md5 -I.\word\socket -I.\word\spi -I.\word\ult -I.\word\w5500 -I.\word\usart-I E:\MDK5\ARM\RV31\INC-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\output\core_cm3.o --omf_browse .\output\core_cm3.crf --depend .\output\core_cm3.d)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+F (.\system\startup_stm32f10x_hd.s)(0x4D783CDE)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I E:\MDK5\ARM\RV31\INC-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\ARM\Inc\ST\STM32F10x--pd "__UVISION_VERSION SETA 514"--list .\output\startup_stm32f10x_hd.lst --xref -o .\output\startup_stm32f10x_hd.o --depend .\output\startup_stm32f10x_hd.d)
+F (.\system\system_stm32f10x.c)(0x4D783CB0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.\User -I.\system -I.\output -I.\flib\inc -I.\flib\src -I.\word\24c02 -I.\word\device -I.\word\int -I.\word\md5 -I.\word\socket -I.\word\spi -I.\word\ult -I.\word\w5500 -I.\word\usart-I E:\MDK5\ARM\RV31\INC-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\output\system_stm32f10x.o --omf_browse .\output\system_stm32f10x.crf --depend .\output\system_stm32f10x.d)
+I (system\stm32f10x.h)(0x4D783CB4)
+I (system\core_cm3.h)(0x4D523B58)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (system\system_stm32f10x.h)(0x4D783CAA)
+I (.\User\stm32f10x_conf.h)(0x5423AAC4)
+I (.\flib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\system\stm32f10x.h)(0x4D783CB4)
+I (.\flib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\flib\inc\misc.h)(0x4D783BB4)
+F (.\flib\src\misc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.\User -I.\system -I.\output -I.\flib\inc -I.\flib\src -I.\word\24c02 -I.\word\device -I.\word\int -I.\word\md5 -I.\word\socket -I.\word\spi -I.\word\ult -I.\word\w5500 -I.\word\usart-I E:\MDK5\ARM\RV31\INC-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\output\misc.o --omf_browse .\output\misc.crf --depend .\output\misc.d)
+I (.\flib\inc\misc.h)(0x4D783BB4)
+I (.\system\stm32f10x.h)(0x4D783CB4)
+I (.\system\core_cm3.h)(0x4D523B58)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\system\system_stm32f10x.h)(0x4D783CAA)
+I (.\User\stm32f10x_conf.h)(0x5423AAC4)
+I (.\flib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+F (.\flib\src\stm32f10x_bkp.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.\User -I.\system -I.\output -I.\flib\inc -I.\flib\src -I.\word\24c02 -I.\word\device -I.\word\int -I.\word\md5 -I.\word\socket -I.\word\spi -I.\word\ult -I.\word\w5500 -I.\word\usart-I E:\MDK5\ARM\RV31\INC-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\output\stm32f10x_bkp.o --omf_browse .\output\stm32f10x_bkp.crf --depend .\output\stm32f10x_bkp.d)
+I (.\flib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\system\stm32f10x.h)(0x4D783CB4)
+I (.\system\core_cm3.h)(0x4D523B58)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\system\system_stm32f10x.h)(0x4D783CAA)
+I (.\User\stm32f10x_conf.h)(0x5423AAC4)
+I (.\flib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\flib\inc\misc.h)(0x4D783BB4)
+F (.\flib\src\stm32f10x_exti.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.\User -I.\system -I.\output -I.\flib\inc -I.\flib\src -I.\word\24c02 -I.\word\device -I.\word\int -I.\word\md5 -I.\word\socket -I.\word\spi -I.\word\ult -I.\word\w5500 -I.\word\usart-I E:\MDK5\ARM\RV31\INC-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\output\stm32f10x_exti.o --omf_browse .\output\stm32f10x_exti.crf --depend .\output\stm32f10x_exti.d)
+I (.\flib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\system\stm32f10x.h)(0x4D783CB4)
+I (.\system\core_cm3.h)(0x4D523B58)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\system\system_stm32f10x.h)(0x4D783CAA)
+I (.\User\stm32f10x_conf.h)(0x5423AAC4)
+I (.\flib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\flib\inc\misc.h)(0x4D783BB4)
+F (.\flib\src\stm32f10x_flash.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.\User -I.\system -I.\output -I.\flib\inc -I.\flib\src -I.\word\24c02 -I.\word\device -I.\word\int -I.\word\md5 -I.\word\socket -I.\word\spi -I.\word\ult -I.\word\w5500 -I.\word\usart-I E:\MDK5\ARM\RV31\INC-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\output\stm32f10x_flash.o --omf_browse .\output\stm32f10x_flash.crf --depend .\output\stm32f10x_flash.d)
+I (.\flib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\system\stm32f10x.h)(0x4D783CB4)
+I (.\system\core_cm3.h)(0x4D523B58)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\system\system_stm32f10x.h)(0x4D783CAA)
+I (.\User\stm32f10x_conf.h)(0x5423AAC4)
+I (.\flib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\flib\inc\misc.h)(0x4D783BB4)
+F (.\flib\src\stm32f10x_gpio.c)(0x4D79EEC6)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.\User -I.\system -I.\output -I.\flib\inc -I.\flib\src -I.\word\24c02 -I.\word\device -I.\word\int -I.\word\md5 -I.\word\socket -I.\word\spi -I.\word\ult -I.\word\w5500 -I.\word\usart-I E:\MDK5\ARM\RV31\INC-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\output\stm32f10x_gpio.o --omf_browse .\output\stm32f10x_gpio.crf --depend .\output\stm32f10x_gpio.d)
+I (.\flib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\system\stm32f10x.h)(0x4D783CB4)
+I (.\system\core_cm3.h)(0x4D523B58)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\system\system_stm32f10x.h)(0x4D783CAA)
+I (.\User\stm32f10x_conf.h)(0x5423AAC4)
+I (.\flib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\flib\inc\misc.h)(0x4D783BB4)
+F (.\flib\src\stm32f10x_i2c.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.\User -I.\system -I.\output -I.\flib\inc -I.\flib\src -I.\word\24c02 -I.\word\device -I.\word\int -I.\word\md5 -I.\word\socket -I.\word\spi -I.\word\ult -I.\word\w5500 -I.\word\usart-I E:\MDK5\ARM\RV31\INC-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\output\stm32f10x_i2c.o --omf_browse .\output\stm32f10x_i2c.crf --depend .\output\stm32f10x_i2c.d)
+I (.\flib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\system\stm32f10x.h)(0x4D783CB4)
+I (.\system\core_cm3.h)(0x4D523B58)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\system\system_stm32f10x.h)(0x4D783CAA)
+I (.\User\stm32f10x_conf.h)(0x5423AAC4)
+I (.\flib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\flib\inc\misc.h)(0x4D783BB4)
+F (.\flib\src\stm32f10x_rcc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.\User -I.\system -I.\output -I.\flib\inc -I.\flib\src -I.\word\24c02 -I.\word\device -I.\word\int -I.\word\md5 -I.\word\socket -I.\word\spi -I.\word\ult -I.\word\w5500 -I.\word\usart-I E:\MDK5\ARM\RV31\INC-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\output\stm32f10x_rcc.o --omf_browse .\output\stm32f10x_rcc.crf --depend .\output\stm32f10x_rcc.d)
+I (.\flib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\system\stm32f10x.h)(0x4D783CB4)
+I (.\system\core_cm3.h)(0x4D523B58)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\system\system_stm32f10x.h)(0x4D783CAA)
+I (.\User\stm32f10x_conf.h)(0x5423AAC4)
+I (.\flib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\flib\inc\misc.h)(0x4D783BB4)
+F (.\flib\src\stm32f10x_spi.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.\User -I.\system -I.\output -I.\flib\inc -I.\flib\src -I.\word\24c02 -I.\word\device -I.\word\int -I.\word\md5 -I.\word\socket -I.\word\spi -I.\word\ult -I.\word\w5500 -I.\word\usart-I E:\MDK5\ARM\RV31\INC-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\output\stm32f10x_spi.o --omf_browse .\output\stm32f10x_spi.crf --depend .\output\stm32f10x_spi.d)
+I (.\flib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\system\stm32f10x.h)(0x4D783CB4)
+I (.\system\core_cm3.h)(0x4D523B58)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\system\system_stm32f10x.h)(0x4D783CAA)
+I (.\User\stm32f10x_conf.h)(0x5423AAC4)
+I (.\flib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\flib\inc\misc.h)(0x4D783BB4)
+F (.\flib\src\stm32f10x_tim.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.\User -I.\system -I.\output -I.\flib\inc -I.\flib\src -I.\word\24c02 -I.\word\device -I.\word\int -I.\word\md5 -I.\word\socket -I.\word\spi -I.\word\ult -I.\word\w5500 -I.\word\usart-I E:\MDK5\ARM\RV31\INC-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\output\stm32f10x_tim.o --omf_browse .\output\stm32f10x_tim.crf --depend .\output\stm32f10x_tim.d)
+I (.\flib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\system\stm32f10x.h)(0x4D783CB4)
+I (.\system\core_cm3.h)(0x4D523B58)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\system\system_stm32f10x.h)(0x4D783CAA)
+I (.\User\stm32f10x_conf.h)(0x5423AAC4)
+I (.\flib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\flib\inc\misc.h)(0x4D783BB4)
+F (.\flib\src\stm32f10x_usart.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.\User -I.\system -I.\output -I.\flib\inc -I.\flib\src -I.\word\24c02 -I.\word\device -I.\word\int -I.\word\md5 -I.\word\socket -I.\word\spi -I.\word\ult -I.\word\w5500 -I.\word\usart-I E:\MDK5\ARM\RV31\INC-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\output\stm32f10x_usart.o --omf_browse .\output\stm32f10x_usart.crf --depend .\output\stm32f10x_usart.d)
+I (.\flib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\system\stm32f10x.h)(0x4D783CB4)
+I (.\system\core_cm3.h)(0x4D523B58)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\system\system_stm32f10x.h)(0x4D783CAA)
+I (.\User\stm32f10x_conf.h)(0x5423AAC4)
+I (.\flib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\flib\inc\misc.h)(0x4D783BB4)
+F (.\flib\src\stm32f10x_wwdg.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.\User -I.\system -I.\output -I.\flib\inc -I.\flib\src -I.\word\24c02 -I.\word\device -I.\word\int -I.\word\md5 -I.\word\socket -I.\word\spi -I.\word\ult -I.\word\w5500 -I.\word\usart-I E:\MDK5\ARM\RV31\INC-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\output\stm32f10x_wwdg.o --omf_browse .\output\stm32f10x_wwdg.crf --depend .\output\stm32f10x_wwdg.d)
+I (.\flib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\system\stm32f10x.h)(0x4D783CB4)
+I (.\system\core_cm3.h)(0x4D523B58)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\system\system_stm32f10x.h)(0x4D783CAA)
+I (.\User\stm32f10x_conf.h)(0x5423AAC4)
+I (.\flib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\flib\inc\misc.h)(0x4D783BB4)
+F (.\word\w5500\w5500.c)(0x5554510D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.\User -I.\system -I.\output -I.\flib\inc -I.\flib\src -I.\word\24c02 -I.\word\device -I.\word\int -I.\word\md5 -I.\word\socket -I.\word\spi -I.\word\ult -I.\word\w5500 -I.\word\usart-I E:\MDK5\ARM\RV31\INC-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\output\w5500.o --omf_browse .\output\w5500.crf --depend .\output\w5500.d)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (.\User\config.h)(0x54DC0D9B)
+I (.\system\stm32f10x.h)(0x4D783CB4)
+I (.\system\core_cm3.h)(0x4D523B58)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\system\system_stm32f10x.h)(0x4D783CAA)
+I (.\User\stm32f10x_conf.h)(0x5423AAC4)
+I (.\flib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\flib\inc\misc.h)(0x4D783BB4)
+I (.\User\Types.h)(0x5423AAAD)
+I (.\word\device\device.h)(0x55544B0B)
+I (.\word\spi\SPI2.h)(0x5423C920)
+I (word\w5500\w5500.h)(0x553081FA)
+I (.\word\socket\socket.h)(0x551E31CE)
+F (.\word\w5500\w5500.h)(0x553081FA)()
+F (.\word\24c02\24c16.c)(0x54DC09D8)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.\User -I.\system -I.\output -I.\flib\inc -I.\flib\src -I.\word\24c02 -I.\word\device -I.\word\int -I.\word\md5 -I.\word\socket -I.\word\spi -I.\word\ult -I.\word\w5500 -I.\word\usart-I E:\MDK5\ARM\RV31\INC-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\output\24c16.o --omf_browse .\output\24c16.crf --depend .\output\24c16.d)
+I (word\24c02\24c16.h)(0x543CC886)
+I (.\system\stm32f10x.h)(0x4D783CB4)
+I (.\system\core_cm3.h)(0x4D523B58)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\system\system_stm32f10x.h)(0x4D783CAA)
+I (.\User\stm32f10x_conf.h)(0x5423AAC4)
+I (.\flib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\flib\inc\misc.h)(0x4D783BB4)
+I (.\User\types.h)(0x5423AAAD)
+I (.\word\ult\ult.h)(0x543CD300)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (.\User\config.h)(0x54DC0D9B)
+I (.\word\device\device.h)(0x55544B0B)
+F (.\word\24c02\24c16.h)(0x543CC886)()
+F (.\word\md5\md5.c)(0x543B3CBD)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.\User -I.\system -I.\output -I.\flib\inc -I.\flib\src -I.\word\24c02 -I.\word\device -I.\word\int -I.\word\md5 -I.\word\socket -I.\word\spi -I.\word\ult -I.\word\w5500 -I.\word\usart-I E:\MDK5\ARM\RV31\INC-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\output\md5.o --omf_browse .\output\md5.crf --depend .\output\md5.d)
+I (E:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (.\User\types.h)(0x5423AAAD)
+I (word\md5\md5.h)(0x5423CC2E)
+I (.\system\stm32f10x.h)(0x4D783CB4)
+I (.\system\core_cm3.h)(0x4D523B58)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\system\system_stm32f10x.h)(0x4D783CAA)
+I (.\User\stm32f10x_conf.h)(0x5423AAC4)
+I (.\flib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\flib\inc\misc.h)(0x4D783BB4)
+F (.\word\md5\md5.h)(0x5423CC2E)()
+F (.\word\socket\socket.c)(0x551E3087)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.\User -I.\system -I.\output -I.\flib\inc -I.\flib\src -I.\word\24c02 -I.\word\device -I.\word\int -I.\word\md5 -I.\word\socket -I.\word\spi -I.\word\ult -I.\word\w5500 -I.\word\usart-I E:\MDK5\ARM\RV31\INC-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\output\socket.o --omf_browse .\output\socket.crf --depend .\output\socket.d)
+I (word\socket\socket.h)(0x551E31CE)
+I (.\system\stm32f10x.h)(0x4D783CB4)
+I (.\system\core_cm3.h)(0x4D523B58)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\system\system_stm32f10x.h)(0x4D783CAA)
+I (.\User\stm32f10x_conf.h)(0x5423AAC4)
+I (.\flib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\flib\inc\misc.h)(0x4D783BB4)
+I (.\User\Types.h)(0x5423AAAD)
+I (.\User\config.h)(0x54DC0D9B)
+I (.\word\device\device.h)(0x55544B0B)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (.\word\w5500\w5500.h)(0x553081FA)
+I (.\word\ult\ult.h)(0x543CD300)
+F (.\word\socket\socket.h)(0x551E31CE)()
+F (.\word\spi\spi2.c)(0x54DC0EE9)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.\User -I.\system -I.\output -I.\flib\inc -I.\flib\src -I.\word\24c02 -I.\word\device -I.\word\int -I.\word\md5 -I.\word\socket -I.\word\spi -I.\word\ult -I.\word\w5500 -I.\word\usart-I E:\MDK5\ARM\RV31\INC-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\output\spi2.o --omf_browse .\output\spi2.crf --depend .\output\spi2.d)
+I (.\system\stm32f10x.h)(0x4D783CB4)
+I (.\system\core_cm3.h)(0x4D523B58)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\system\system_stm32f10x.h)(0x4D783CAA)
+I (.\User\stm32f10x_conf.h)(0x5423AAC4)
+I (.\flib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\flib\inc\misc.h)(0x4D783BB4)
+I (.\User\config.h)(0x54DC0D9B)
+I (.\User\Types.h)(0x5423AAAD)
+I (.\word\device\device.h)(0x55544B0B)
+I (.\word\socket\socket.h)(0x551E31CE)
+I (.\word\w5500\w5500.h)(0x553081FA)
+I (.\word\ult\ult.h)(0x543CD300)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (E:\MDK5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+F (.\word\spi\spi2.h)(0x5423C920)()
+F (.\word\ult\ult.c)(0x543DEE81)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.\User -I.\system -I.\output -I.\flib\inc -I.\flib\src -I.\word\24c02 -I.\word\device -I.\word\int -I.\word\md5 -I.\word\socket -I.\word\spi -I.\word\ult -I.\word\w5500 -I.\word\usart-I E:\MDK5\ARM\RV31\INC-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\output\ult.o --omf_browse .\output\ult.crf --depend .\output\ult.d)
+I (word\ult\ult.h)(0x543CD300)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (.\User\types.h)(0x5423AAAD)
+I (.\system\stm32f10x.h)(0x4D783CB4)
+I (.\system\core_cm3.h)(0x4D523B58)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\system\system_stm32f10x.h)(0x4D783CAA)
+I (.\User\stm32f10x_conf.h)(0x5423AAC4)
+I (.\flib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\flib\inc\misc.h)(0x4D783BB4)
+I (.\User\config.h)(0x54DC0D9B)
+I (.\word\device\device.h)(0x55544B0B)
+I (E:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (E:\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+F (.\word\ult\ult.h)(0x543CD300)()
+F (.\word\device\device.c)(0x55544B0B)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.\User -I.\system -I.\output -I.\flib\inc -I.\flib\src -I.\word\24c02 -I.\word\device -I.\word\int -I.\word\md5 -I.\word\socket -I.\word\spi -I.\word\ult -I.\word\w5500 -I.\word\usart-I E:\MDK5\ARM\RV31\INC-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\output\device.o --omf_browse .\output\device.crf --depend .\output\device.d)
+I (.\system\stm32f10x.h)(0x4D783CB4)
+I (.\system\core_cm3.h)(0x4D523B58)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\system\system_stm32f10x.h)(0x4D783CAA)
+I (.\User\stm32f10x_conf.h)(0x5423AAC4)
+I (.\flib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\flib\inc\misc.h)(0x4D783BB4)
+I (word\device\device.h)(0x55544B0B)
+I (.\User\config.h)(0x54DC0D9B)
+I (.\User\Types.h)(0x5423AAAD)
+I (.\word\socket\socket.h)(0x551E31CE)
+I (.\word\ult\ult.h)(0x543CD300)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (.\word\w5500\w5500.h)(0x553081FA)
+I (.\word\24c02\24c16.h)(0x543CC886)
+I (E:\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+F (.\word\device\device.h)(0x55544B0B)()
+F (.\word\usart\usart.c)(0x55544B0B)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.\User -I.\system -I.\output -I.\flib\inc -I.\flib\src -I.\word\24c02 -I.\word\device -I.\word\int -I.\word\md5 -I.\word\socket -I.\word\spi -I.\word\ult -I.\word\w5500 -I.\word\usart-I E:\MDK5\ARM\RV31\INC-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\output\usart.o --omf_browse .\output\usart.crf --depend .\output\usart.d)
+I (word\usart\usart.h)(0x55544B0B)
+I (.\system\stm32f10x.h)(0x4D783CB4)
+I (.\system\core_cm3.h)(0x4D523B58)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\system\system_stm32f10x.h)(0x4D783CAA)
+I (.\User\stm32f10x_conf.h)(0x5423AAC4)
+I (.\flib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\flib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\flib\inc\misc.h)(0x4D783BB4)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (.\User\types.h)(0x5423AAAD)
+F (.\word\usart\usart.h)(0x55544B0B)()
